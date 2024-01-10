@@ -1,0 +1,17 @@
+
+.roundRadius{
+    border-radius: 50%;
+}
+
+
+.table-container {
+    max-height: 400px; /* Set the maximum height for the container */
+    overflow-y: auto; /* Enable vertical scroll */
+  }
+
+  th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+

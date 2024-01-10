@@ -1,0 +1,21 @@
+
+<div class="container">
+    <div class="col-md-8 offset-md-2 text-center">
+        <!-- <div class="card mt-4"> -->
+            <div class="container m-2 ">
+                <img class="roundRadius" src="{{this.data.picture.large}}" width="200px" height="200px" alt="Image"> 
+                  
+            </div>
+        <!-- </div>    -->
+    </div>
+    <!-- <div class="col-md-10 offset-md-2"> -->
+        <div class="card-body text-center">
+            <div> Full Name : {{this.data.name.first +" "+ this.data.name.last}} </div>
+            <div> Mobile Number : {{this.data.cell}}</div>
+        </div>
+        <div class="container m-2 text-center">
+            <button class="btn btn-primary" (click)="return()"> Back </button>
+        </div>
+    <!-- </div> -->
+   
+  </div>
